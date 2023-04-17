@@ -1,0 +1,117 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    align-content: center;
+}
+.positioning{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 37%;
+    height: 55vh;
+}
+.attribution{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.right-case{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: flex-start;
+    width: 320px;
+    height: 450px;
+    left: 50%;
+    gap: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    -webkit-box-shadow: 8px 8px 24px -18px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -18px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -18px rgba(66, 68, 90, 1);
+}
+.left-case{
+    position: fixed;
+    align-items: center;
+    right:40%;
+}
+img {
+    width: 50%;
+    height:auto;
+    border-radius: 10px 0 0 10px;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.bold-text{
+    flex-wrap: wrap;
+    font-family: 'Fraunces', serif;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 80%;
+    line-height: 1;
+    padding-left: 10%;
+    color: hsl(212, 21%, 14%);
+}
+.preview-text{
+    padding-left: 10%;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 3%;
+    font-size: 0.9rem;
+}
+.main-text{
+    margin-top: 5%;
+    text-align: left;
+    width: 85%;
+    padding-left: 10%;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+.price-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+    align-items: center;
+}
+.cart{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    color: white;
+    gap: 7px;
+    background-color:hsl(158, 36%, 37%) ;
+    padding: 4% 20%;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+.cart:hover{
+    background-color: hsl(158, 52%, 19%);
+}
+.discount{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+.price{
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+}
+.small-gap{
+    display: block;
+}
