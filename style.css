@@ -27,7 +27,7 @@ body{
     justify-items: flex-start;
     width: 320px;
     height: 450px;
-    left: 50%;
+    left: 49%;
     gap: 15px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 10px 10px 0;
